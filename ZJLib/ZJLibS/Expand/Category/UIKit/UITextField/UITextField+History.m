@@ -23,7 +23,7 @@ static char kTextFieldHistoryviewIdentifyKey;
 #define MAX_HEIGHT 300
 
 
-@interface UITextField ()<UITableViewDataSource,UITableViewDelegate>
+@interface UITextField ()
 
 @property (retain, nonatomic) UITableView* historyTableView;
 
@@ -153,15 +153,15 @@ static char kTextFieldHistoryviewIdentifyKey;
 
 
 #pragma mark tableview datasource
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView; {
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section; {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return [self loadHistroy].count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath; {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"UITextFieldHistoryCell"];
     
     if (cell == nil) {

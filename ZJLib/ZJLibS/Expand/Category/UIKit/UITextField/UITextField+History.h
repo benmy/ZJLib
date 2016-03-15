@@ -10,7 +10,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextField (History)
+@interface UITextField (History)<UITableViewDataSource,UITableViewDelegate>
 
 /**
  *  identity of this textfield
