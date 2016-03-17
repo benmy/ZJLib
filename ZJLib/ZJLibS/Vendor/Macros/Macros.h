@@ -130,7 +130,7 @@
 #endif
 
 #if DEBUG
-    #define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+    #define NSLog(FORMAT, ...) fprintf(stderr,"\nFunction:%s\nLine:%d\nContent:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else
     #define NSLog(FORMAT, ...) nil
 #endif
@@ -141,7 +141,7 @@
     #define ULog(...)
 #endif
 
-#define LogFrame(frame) NSLog(@"frame[X=%.1f, Y=%.1f, W=%.1f, H=%.1f]",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height)
+#define LogFrame(frame) NSLog(@"Frame[X=%.1f, Y=%.1f, W=%.1f, H=%.1f]",frame.origin.x,frame.origin.y,frame.size.width,frame.size.height)
 #define LogPoint(point) NSLog(@"Point[X=%.1f, Y=%.1f]",point.x,point.y)
 //-------------------打印日志-------------------------
 

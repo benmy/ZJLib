@@ -10,100 +10,57 @@
 
 @implementation UIView (Frame)
 #pragma mark - Shortcuts for the coords
-
-- (CGFloat)top
-{
-    return self.frame.origin.y;
-}
-
-- (void)setTop:(CGFloat)y
+- (void)setFrameLeft:(CGFloat)left
 {
     CGRect frame = self.frame;
-    frame.origin.y = y;
+    frame.origin.x = left;
     self.frame = frame;
 }
 
-- (CGFloat)right
-{
-    return self.frame.origin.x + self.frame.size.width;
-}
-
-- (void)setRight:(CGFloat)right
+- (void)setFrameTop:(CGFloat)top
 {
     CGRect frame = self.frame;
-    frame.origin.x = right - self.frame.size.width;
+    frame.origin.y = top;
     self.frame = frame;
 }
 
-- (CGFloat)bottom
-{
-    return self.frame.origin.y + self.frame.size.height;
-}
-
-- (void)setBottom:(CGFloat)bottom
+- (void)setFrameOrigin:(CGFloat)left top:(CGFloat)top
 {
     CGRect frame = self.frame;
-    frame.origin.y = bottom - self.frame.size.height;
+    frame.origin.x = left;
+    frame.origin.y = top;
     self.frame = frame;
 }
 
-- (CGFloat)left
-{
-    return self.frame.origin.x;
-}
-
-- (void)setLeft:(CGFloat)x
-{
-    CGRect frame = self.frame;
-    frame.origin.x = x;
-    self.frame = frame;
-}
-
-- (CGFloat)width
-{
-    return self.frame.size.width;
-}
-
-- (void)setWidth:(CGFloat)width
-{
-    CGRect frame = self.frame;
-    frame.size.width = width;
-    self.frame = frame;
-}
-
-- (CGFloat)height
-{
-    return self.frame.size.height;
-}
-
-- (void)setHeight:(CGFloat)height
+- (void)setFrameHeight:(CGFloat)height
 {
     CGRect frame = self.frame;
     frame.size.height = height;
     self.frame = frame;
 }
 
-#pragma mark - Shortcuts for frame properties
-
-- (CGPoint)origin {
-    return self.frame.origin;
-}
-
-- (void)setOrigin:(CGPoint)origin {
+- (void)setFrameWidth:(CGFloat)width
+{
     CGRect frame = self.frame;
-    frame.origin = origin;
+    frame.size.width = width;
     self.frame = frame;
 }
 
-- (CGSize)size {
-    return self.frame.size;
+- (void)setFrameSize:(CGFloat)height width:(CGFloat)width
+{
+    CGRect frame = self.frame;
+    frame.size.height = height;
+    frame.size.width = width;
+    self.frame = frame;
 }
 
-- (void)setSize:(CGSize)size {
+- (void)setFrameSize:(CGSize)size
+{
     CGRect frame = self.frame;
     frame.size = size;
     self.frame = frame;
 }
+
 #pragma mark - Shortcuts for positions
 
 - (CGFloat)centerX {

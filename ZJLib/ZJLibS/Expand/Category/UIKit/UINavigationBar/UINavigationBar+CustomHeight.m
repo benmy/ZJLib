@@ -44,7 +44,7 @@ static char const *const heightKey = "Height";
     CGSize newSize;
     
     if (self.height) {
-        newSize = CGSizeMake(self.superview.bounds.size.width, [self.height floatValue]);
+        newSize = CGSizeMake(self.superview.bounds.size.width, self.height);
     } else {
         newSize = [super sizeThatFits:size];
     }

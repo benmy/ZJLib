@@ -12,10 +12,15 @@
 
 @implementation UIView (Visuals)
 
+- (void)roundedViewWithRadius:(CGFloat)radius
+{
+    self.layer.cornerRadius = radius;
+    self.layer.masksToBounds = YES;
+}
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-- (void)cornerRadius: (CGFloat)radius strokeSize: (CGFloat)size color: (UIColor *)color
+- (void)roundedViewWithRadius: (CGFloat)radius strokeSize: (CGFloat)size color: (UIColor *)color
 {
     self.layer.cornerRadius = radius;
     self.layer.borderColor = color.CGColor;

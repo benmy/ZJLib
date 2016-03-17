@@ -48,9 +48,9 @@
         ABAddressBookRequestAccessWithCompletion(addressBook, ^(bool granted, CFErrorRef error)
          {
              dispatch_async(dispatch_get_main_queue(), ^{
-                 if (error)
+                 if (error){
                      NSLog(@"Error: %@", (__bridge NSError *)error);
-                 else
+                 }else
                  {
                      [self arrayRootForDic:addressBook];
                  }

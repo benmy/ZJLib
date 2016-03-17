@@ -20,6 +20,9 @@
 
 #import "CoreAnimationBasicEffect.h"
 
+//个推
+#import "GeTuiSdk.h"
+
 //Helper
 #import "ZJAddressUtil.h"
 #import "ZJUtil.h"
@@ -29,6 +32,7 @@
 #import "ZJVoiceRecordHelper.h"
 #import "ZJVoicePlayerHelper.h"
 #import "ZJLocationHelper.h"
+#import "ZJFileHelper.h"
 
 //Category
 #import "NSArray+Access.h"
@@ -227,5 +231,16 @@
 #import "WebView+Debug.h"
 
 #import "UIWindow+Hierarchy.h"
+
+//DataManager
+#import "ZJDataMgr.h"
+
+//CustomUI
+#import "ZJBaseViewController.h"
+#import "ZJUICountDownButton.h"
+#import "ImgScrollView.h"
+#import "TapImageView.h"
+#import "ZJCustomAlertView.h"
+#import "SVProgressHUD.h"
 
 #endif /* ZJLib_h */

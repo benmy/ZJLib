@@ -9,20 +9,18 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (Frame)
-// shortcuts for frame properties
-@property (nonatomic, assign) CGPoint origin;
-@property (nonatomic, assign) CGSize size;
 
 // shortcuts for positions
 @property (nonatomic) CGFloat centerX;
 @property (nonatomic) CGFloat centerY;
 
+//以下方法用来设置view的frame
+- (void)setFrameLeft:(CGFloat)left;
+- (void)setFrameTop:(CGFloat)top;
+- (void)setFrameOrigin:(CGFloat)left top:(CGFloat)top;
+- (void)setFrameHeight:(CGFloat)height;
+- (void)setFrameWidth:(CGFloat)width;
+- (void)setFrameSize:(CGFloat)height width:(CGFloat)width;
+- (void)setFrameSize:(CGSize)size;
 
-@property (nonatomic) CGFloat top;
-@property (nonatomic) CGFloat bottom;
-@property (nonatomic) CGFloat right;
-@property (nonatomic) CGFloat left;
-
-@property (nonatomic) CGFloat width;
-@property (nonatomic) CGFloat height;
 @end

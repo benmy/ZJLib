@@ -38,10 +38,10 @@
  *
  *  @return
  */
-#define kColorA                 COLOR_RGB(kColorA, 0x39b44a, 1)
-#define kColorB                 COLOR_RGB(kColorA, 0xf43531, 1)
-#define kColorC                 COLOR_RGB(kColorA, 0x333333, 1)
-#define kColorD                 COLOR_RGB(kColorA, 0x929292, 1)
-#define kColorE                 COLOR_RGB(kColorA, 0xe2e2e5, 1)
-#define kColorF                 COLOR_RGB(kColorA, 0xf2f2f2, 1)
+#define kColorA                 COLOR_RGB(0x39b44a, 1)
+#define kColorB                 COLOR_RGB(0xf43531, 1)
+#define kColorC                 COLOR_RGB(0x333333, 1)
+#define kColorD                 COLOR_RGB(0x929292, 1)
+#define kColorE                 COLOR_RGB(0xe2e2e5, 1)
+#define kColorF                 COLOR_RGB(0xf2f2f2, 1)
 #endif
