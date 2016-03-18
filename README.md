@@ -1,0 +1,12 @@
+项目结构说明:
+DataSource文件夹主要用于持久层的实现，包含数据库，文件和其他的一些方案；
+Model文件夹主要用于数据库基本数据结构；
+NetWork文件夹主要存放网络请求类，调用服务端API；
+Handler文件夹主要用于提供网络请求接口给前端，处理网络请求的数据，包括存储等,调用DataBase；
+Manager文件夹主要负责业务逻辑处理，生成数据给展示层展示,调用DataBase，和viewController的关系有可能一对多，也有可能多对一；
+View文件夹主要用于存放一些界面子View,处理一些界面设计和点击反馈等；
+Controller文件夹主要存放Controller类文件，主要负责调用Manager获取数据展示，交互跳转等；
+Base文件夹主要存放一些基类；
+Resource文件夹存放资源文件；
+ZJLib文件夹主要是一些常用的扩展，第三方库以及自定义的界面等；
+Supporting Files文件夹主要存放一些项目配置文件。

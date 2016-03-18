@@ -197,8 +197,6 @@
 		0013E63A1C98F35D0008C795 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0013E6391C98F35D0008C795 /* CoreLocation.framework */; };
 		0013E63C1C98F3650008C795 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0013E63B1C98F3650008C795 /* CoreBluetooth.framework */; };
 		0013E6551C9A47A80008C795 /* ZJUICountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6541C9A47A80008C795 /* ZJUICountDownButton.m */; };
-		0013E65C1C9A4D850008C795 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6581C9A4D850008C795 /* LoginRequest.m */; };
-		0013E65D1C9A4D850008C795 /* LoginHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E65B1C9A4D850008C795 /* LoginHandler.m */; };
 		0013E6661C9A4EB20008C795 /* ZJDataMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6651C9A4EB20008C795 /* ZJDataMgr.m */; };
 		0013E66A1C9A53C30008C795 /* ZJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6691C9A53C30008C795 /* ZJBaseViewController.m */; };
 		0013E66D1C9A566B0008C795 /* ZJCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E66C1C9A566B0008C795 /* ZJCustomAlertView.m */; };
@@ -228,6 +226,9 @@
 		0013E6BA1C9A5A630008C795 /* ZJFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6B91C9A5A630008C795 /* ZJFileHelper.m */; };
 		0013E6BF1C9A5B330008C795 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0013E6BC1C9A5B330008C795 /* SVProgressHUD.bundle */; };
 		0013E6C01C9A5B330008C795 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6BE1C9A5B330008C795 /* SVProgressHUD.m */; };
+		0013E6D01C9A877F0008C795 /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6CC1C9A877F0008C795 /* LoginRequest.m */; };
+		0013E6D11C9A877F0008C795 /* LoginHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6CF1C9A877F0008C795 /* LoginHandler.m */; };
+		0013E6D71C9AA04E0008C795 /* GVUserDefaults+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013E6D61C9AA04E0008C795 /* GVUserDefaults+Properties.m */; };
 		D048EADF395B9C21ED74F0D9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A20BC54E7E42A94555E7D01 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -609,12 +610,8 @@
 		0013E6411C9905D40008C795 /* ZJBaseHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseHandlerProtocol.h; sourceTree = "<group>"; };
 		0013E6531C9A47A80008C795 /* ZJUICountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJUICountDownButton.h; path = CustomUI/ZJUICountDownButton.h; sourceTree = "<group>"; };
 		0013E6541C9A47A80008C795 /* ZJUICountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJUICountDownButton.m; path = CustomUI/ZJUICountDownButton.m; sourceTree = "<group>"; };
-		0013E6571C9A4D850008C795 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
-		0013E6581C9A4D850008C795 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
-		0013E65A1C9A4D850008C795 /* LoginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHandler.h; sourceTree = "<group>"; };
-		0013E65B1C9A4D850008C795 /* LoginHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHandler.m; sourceTree = "<group>"; };
-		0013E6641C9A4EB20008C795 /* ZJDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDataMgr.h; sourceTree = "<group>"; };
-		0013E6651C9A4EB20008C795 /* ZJDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDataMgr.m; sourceTree = "<group>"; };
+		0013E6641C9A4EB20008C795 /* ZJDataMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZJDataMgr.h; path = ../ZJLibS/ZJDataMgr.h; sourceTree = "<group>"; };
+		0013E6651C9A4EB20008C795 /* ZJDataMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZJDataMgr.m; path = ../ZJLibS/ZJDataMgr.m; sourceTree = "<group>"; };
 		0013E6681C9A53C30008C795 /* ZJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseViewController.h; sourceTree = "<group>"; };
 		0013E6691C9A53C30008C795 /* ZJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseViewController.m; sourceTree = "<group>"; };
 		0013E66B1C9A566B0008C795 /* ZJCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCustomAlertView.h; sourceTree = "<group>"; };
@@ -673,6 +670,12 @@
 		0013E6BC1C9A5B330008C795 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		0013E6BD1C9A5B330008C795 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		0013E6BE1C9A5B330008C795 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0013E6CB1C9A877F0008C795 /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		0013E6CC1C9A877F0008C795 /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		0013E6CE1C9A877F0008C795 /* LoginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHandler.h; sourceTree = "<group>"; };
+		0013E6CF1C9A877F0008C795 /* LoginHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHandler.m; sourceTree = "<group>"; };
+		0013E6D51C9AA04E0008C795 /* GVUserDefaults+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GVUserDefaults+Properties.h"; path = "../ZJLibS/GVUserDefaults+Properties.h"; sourceTree = "<group>"; };
+		0013E6D61C9AA04E0008C795 /* GVUserDefaults+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GVUserDefaults+Properties.m"; path = "../ZJLibS/GVUserDefaults+Properties.m"; sourceTree = "<group>"; };
 		1937154BB3B00AD2AB99929A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		1A20BC54E7E42A94555E7D01 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29403FD79D4E9660FC3D6DF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -722,12 +725,13 @@
 			children = (
 				0013E0A31C96C30A0008C795 /* AppDelegate.h */,
 				0013E0A41C96C30A0008C795 /* AppDelegate.m */,
+				0013E6D91C9BA5830008C795 /* DataSource */,
 				0013E6491C990A420008C795 /* View */,
 				0013E6471C990A420008C795 /* Controller */,
-				0013E6C21C9A625E0008C795 /* ViewModel */,
+				0013E6D81C9BA2590008C795 /* Manager */,
+				0013E6CD1C9A877F0008C795 /* Handler */,
+				0013E6CA1C9A877F0008C795 /* NetWork */,
 				0013E6281C980B760008C795 /* Model */,
-				0013E6481C990A420008C795 /* DataBase */,
-				0013E6421C9905D40008C795 /* NetWork */,
 				0013E6401C9905D40008C795 /* Base */,
 				0013E6251C980B420008C795 /* Resource */,
 				0013E0B71C96C3670008C795 /* ZJLib */,
@@ -755,8 +759,6 @@
 				0013E0BB1C96C3670008C795 /* Expand */,
 				0013E22A1C96C3670008C795 /* Vendor */,
 				0013E24A1C96C3670008C795 /* ZJLib.h */,
-				0013E6641C9A4EB20008C795 /* ZJDataMgr.h */,
-				0013E6651C9A4EB20008C795 /* ZJDataMgr.m */,
 			);
 			name = ZJLib;
 			path = ZJLibS;
@@ -1545,15 +1547,6 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		0013E6421C9905D40008C795 /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-				0013E6561C9A4D850008C795 /* Request */,
-				0013E6591C9A4D850008C795 /* Handler */,
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
 		0013E6471C990A420008C795 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -1561,13 +1554,6 @@
 				0013E0A71C96C30A0008C795 /* ViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		0013E6481C990A420008C795 /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBase;
 			sourceTree = "<group>";
 		};
 		0013E6491C990A420008C795 /* View */ = {
@@ -1606,40 +1592,6 @@
 				0013E6B51C9A57230008C795 /* TapImageView.m */,
 			);
 			name = CustomUI;
-			sourceTree = "<group>";
-		};
-		0013E6561C9A4D850008C795 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				0013E65E1C9A4D900008C795 /* Login */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		0013E6591C9A4D850008C795 /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-				0013E65F1C9A4D990008C795 /* Login */,
-			);
-			path = Handler;
-			sourceTree = "<group>";
-		};
-		0013E65E1C9A4D900008C795 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				0013E6571C9A4D850008C795 /* LoginRequest.h */,
-				0013E6581C9A4D850008C795 /* LoginRequest.m */,
-			);
-			name = Login;
-			sourceTree = "<group>";
-		};
-		0013E65F1C9A4D990008C795 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				0013E65A1C9A4D850008C795 /* LoginHandler.h */,
-				0013E65B1C9A4D850008C795 /* LoginHandler.m */,
-			);
-			name = Login;
 			sourceTree = "<group>";
 		};
 		0013E6671C9A53B70008C795 /* BaseUI */ = {
@@ -1728,11 +1680,72 @@
 			name = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		0013E6C21C9A625E0008C795 /* ViewModel */ = {
+		0013E6CA1C9A877F0008C795 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				0013E6D21C9A878B0008C795 /* Login */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		0013E6CD1C9A877F0008C795 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				0013E6D31C9A87950008C795 /* Login */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		0013E6D21C9A878B0008C795 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0013E6CB1C9A877F0008C795 /* LoginRequest.h */,
+				0013E6CC1C9A877F0008C795 /* LoginRequest.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		0013E6D31C9A87950008C795 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0013E6CE1C9A877F0008C795 /* LoginHandler.h */,
+				0013E6CF1C9A877F0008C795 /* LoginHandler.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		0013E6D81C9BA2590008C795 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ViewModel;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0013E6D91C9BA5830008C795 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0013E6DB1C9BA5AF0008C795 /* LocalStorage */,
+				0013E6DA1C9BA5910008C795 /* DataBase */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		0013E6DA1C9BA5910008C795 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		0013E6DB1C9BA5AF0008C795 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0013E6641C9A4EB20008C795 /* ZJDataMgr.h */,
+				0013E6651C9A4EB20008C795 /* ZJDataMgr.m */,
+				0013E6D51C9AA04E0008C795 /* GVUserDefaults+Properties.h */,
+				0013E6D61C9AA04E0008C795 /* GVUserDefaults+Properties.m */,
+			);
+			name = LocalStorage;
 			sourceTree = "<group>";
 		};
 		52CA975207FDF15CF5437628 /* Pods */ = {
@@ -1894,6 +1907,7 @@
 			files = (
 				0013E2A61C96C3670008C795 /* UILabel+AutoSize.m in Sources */,
 				0013E2961C96C3670008C795 /* UIImage+GIF.m in Sources */,
+				0013E6D71C9AA04E0008C795 /* GVUserDefaults+Properties.m in Sources */,
 				0013E2CA1C96C3670008C795 /* UIView+FDCollapsibleConstraints.m in Sources */,
 				0013E6AA1C9A57080008C795 /* MWGridCell.m in Sources */,
 				0013E2731C96C3670008C795 /* NSString+Size.m in Sources */,
@@ -1967,7 +1981,6 @@
 				0013E2511C96C3670008C795 /* NSData+Hash.m in Sources */,
 				0013E2621C96C3670008C795 /* NSObject+Blocks.m in Sources */,
 				0013E2AD1C96C3670008C795 /* UINavigationController+KeyboardFix.m in Sources */,
-				0013E65D1C9A4D850008C795 /* LoginHandler.m in Sources */,
 				0013E2EB1C96C3670008C795 /* UIWebView+TS_JavaScriptContext.m in Sources */,
 				0013E2761C96C3670008C795 /* NSTimer+Addition.m in Sources */,
 				0013E2C91C96C3670008C795 /* UIView+draggable.m in Sources */,
@@ -2034,7 +2047,6 @@
 				0013E28C1C96C3670008C795 /* UIButton+UIKit.m in Sources */,
 				0013E2B51C96C3670008C795 /* UIScrollView+Extends.m in Sources */,
 				0013E2C71C96C3670008C795 /* UIView+CustomBorder.m in Sources */,
-				0013E65C1C9A4D850008C795 /* LoginRequest.m in Sources */,
 				0013E6A91C9A57080008C795 /* MWCaptionView.m in Sources */,
 				0013E2921C96C3670008C795 /* UIImage+Capture.m in Sources */,
 				0013E2811C96C3670008C795 /* UIBezierPath+BasicShapes.m in Sources */,
@@ -2054,6 +2066,7 @@
 				0013E2B11C96C3670008C795 /* UINavigationItem+Margin.m in Sources */,
 				0013E2B21C96C3670008C795 /* UIScrollView+Addition.m in Sources */,
 				0013E2571C96C3670008C795 /* NSDictionary+JSON.m in Sources */,
+				0013E6D11C9A877F0008C795 /* LoginHandler.m in Sources */,
 				0013E6661C9A4EB20008C795 /* ZJDataMgr.m in Sources */,
 				0013E0A21C96C30A0008C795 /* main.m in Sources */,
 				0013E2A91C96C3670008C795 /* UINavigationBar+CustomHeight.m in Sources */,
@@ -2097,6 +2110,7 @@
 				0013E2D11C96C3670008C795 /* UIView+RecursiveDescription.m in Sources */,
 				0013E26B1C96C3670008C795 /* NSString+Base64.m in Sources */,
 				0013E2B41C96C3670008C795 /* UIScrollView+EmptyDataSet.m in Sources */,
+				0013E6D01C9A877F0008C795 /* LoginRequest.m in Sources */,
 				0013E28B1C96C3670008C795 /* UIButton+TouchAreaInsets.m in Sources */,
 				0013E2C51C96C3670008C795 /* UIView+BlockGesture.m in Sources */,
 			);
