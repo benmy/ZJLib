@@ -705,7 +705,7 @@
 		0013E0941C96C3090008C795 = {
 			isa = PBXGroup;
 			children = (
-				0013E09F1C96C30A0008C795 /* Yxt */,
+				0013E09F1C96C30A0008C795 /* ZJLib */,
 				0013E09E1C96C30A0008C795 /* Products */,
 				52CA975207FDF15CF5437628 /* Pods */,
 				C62F993E6E2E906F707D2564 /* Frameworks */,
@@ -720,7 +720,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0013E09F1C96C30A0008C795 /* Yxt */ = {
+		0013E09F1C96C30A0008C795 /* ZJLib */ = {
 			isa = PBXGroup;
 			children = (
 				0013E0A31C96C30A0008C795 /* AppDelegate.h */,
@@ -737,7 +737,6 @@
 				0013E0B71C96C3670008C795 /* ZJLib */,
 				0013E0A01C96C30A0008C795 /* Supporting Files */,
 			);
-			name = Yxt;
 			path = ZJLib;
 			sourceTree = "<group>";
 		};
